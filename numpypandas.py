@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # CSV-Datei mit Pandas einlesen
-df = pd.read_csv("hello/customers-500000.csv")
+df = pd.read_csv("customers-500000.csv")
 
 # Erste Zeilen des DataFrames anzeigen
 print("Erste Zeilen des DataFrames:")
